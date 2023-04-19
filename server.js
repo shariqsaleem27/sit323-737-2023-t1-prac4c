@@ -89,5 +89,3 @@ app.get('/protected', passport.authenticate('jwt', { session: false }), (req, re
 app.listen(3000, () => {
   console.log('Server started on port 3000');
 });
-
-//end
